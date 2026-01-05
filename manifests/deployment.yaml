@@ -21,7 +21,7 @@ spec:
       # ---------------------------
       containers:
       - name: web-app
-        image: harbor.aisapi.com.tr/k8s-lab/busybox:latest
+        image: harbor.aisapi.com.tr/test/busybox:latest
         command: ["sh", "-c", "echo 'Hello from Harbor!' && sleep 3600"]
         resources:
           limits:
