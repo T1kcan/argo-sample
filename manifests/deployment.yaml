@@ -17,7 +17,7 @@ spec:
     spec:
       # --- Harbor Entegrasyonu ---
       imagePullSecrets:
-      - name: harbor-pull-secret
+      - name: harbor-secret
       # ---------------------------
       containers:
       - name: web-app
